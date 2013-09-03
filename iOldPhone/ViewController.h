@@ -7,7 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import "Ring.h"
+#import "Constants.h"
+#import "PuckView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIAlertViewDelegate, PuckViewDelegate>
+
+@property (nonatomic, assign) CGPoint center;
+@property (nonatomic, assign) CGFloat radius;
+@property (nonatomic, assign) NSInteger cellCount;
+
+@property (weak, nonatomic) IBOutlet UITextField *numberField;
+@property (weak, nonatomic) IBOutlet UIButton *callButton;
+@property (weak, nonatomic) IBOutlet UIButton *clearButton;
+
+
+@property (weak, nonatomic) IBOutlet PuckView *puckView;
+
+- (IBAction)clearButtonClicked:(id)sender;
+- (IBAction)callButtonPressed:(id)sender;
 
 @end

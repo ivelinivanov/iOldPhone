@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552E69F017BE310C0097C35C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552E69EF17BE310C0097C35C /* QuartzCore.framework */; };
+		554591D617CB6ECE00AF2166 /* PuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554591D517CB6ECE00AF2166 /* PuckView.m */; };
 		55A1C03317BE243400F7529F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A1C03217BE243400F7529F /* UIKit.framework */; };
 		55A1C03517BE243400F7529F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A1C03417BE243400F7529F /* Foundation.framework */; };
 		55A1C03717BE243400F7529F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A1C03617BE243400F7529F /* CoreGraphics.framework */; };
@@ -16,11 +18,19 @@
 		55A1C04517BE243400F7529F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1C04417BE243400F7529F /* Default.png */; };
 		55A1C04717BE243400F7529F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1C04617BE243400F7529F /* Default@2x.png */; };
 		55A1C04917BE243400F7529F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1C04817BE243400F7529F /* Default-568h@2x.png */; };
-		55A1C04C17BE243400F7529F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A1C04A17BE243400F7529F /* MainStoryboard.storyboard */; };
 		55A1C04F17BE243400F7529F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1C04E17BE243400F7529F /* ViewController.m */; };
+		55A1C05C17BE2EF600F7529F /* Ring.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1C05B17BE2EF600F7529F /* Ring.m */; };
+		55C6C42B17C3888D0040EC8D /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C6C42A17C3888D0040EC8D /* call.png */; };
+		55FF925417C280170020AEE0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FF925317C280170020AEE0 /* MainStoryboard.storyboard */; };
+		55FFB97B17C4BB2700896865 /* Ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FFB97917C4BB2700896865 /* Ico@2x.png */; };
+		55FFB97C17C4BB2700896865 /* Ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FFB97A17C4BB2700896865 /* Ico.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		552E69EF17BE310C0097C35C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		554591D417CB6ECE00AF2166 /* PuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuckView.h; sourceTree = "<group>"; };
+		554591D517CB6ECE00AF2166 /* PuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuckView.m; sourceTree = "<group>"; };
+		557BE28517C36B39002935B4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		55A1C02F17BE243400F7529F /* iOldPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOldPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A1C03217BE243400F7529F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55A1C03417BE243400F7529F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +44,14 @@
 		55A1C04417BE243400F7529F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		55A1C04617BE243400F7529F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		55A1C04817BE243400F7529F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		55A1C04B17BE243400F7529F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		55A1C04D17BE243400F7529F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		55A1C04E17BE243400F7529F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55A1C05A17BE2EF600F7529F /* Ring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ring.h; sourceTree = "<group>"; };
+		55A1C05B17BE2EF600F7529F /* Ring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ring.m; sourceTree = "<group>"; };
+		55C6C42A17C3888D0040EC8D /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		55FF925317C280170020AEE0 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		55FFB97917C4BB2700896865 /* Ico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ico@2x.png"; sourceTree = "<group>"; };
+		55FFB97A17C4BB2700896865 /* Ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ico.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552E69F017BE310C0097C35C /* QuartzCore.framework in Frameworks */,
 				55A1C03317BE243400F7529F /* UIKit.framework in Frameworks */,
 				55A1C03517BE243400F7529F /* Foundation.framework in Frameworks */,
 				55A1C03717BE243400F7529F /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +89,7 @@
 		55A1C03117BE243400F7529F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				552E69EF17BE310C0097C35C /* QuartzCore.framework */,
 				55A1C03217BE243400F7529F /* UIKit.framework */,
 				55A1C03417BE243400F7529F /* Foundation.framework */,
 				55A1C03617BE243400F7529F /* CoreGraphics.framework */,
@@ -85,10 +102,15 @@
 			children = (
 				55A1C04117BE243400F7529F /* AppDelegate.h */,
 				55A1C04217BE243400F7529F /* AppDelegate.m */,
-				55A1C04A17BE243400F7529F /* MainStoryboard.storyboard */,
+				557BE28517C36B39002935B4 /* Constants.h */,
 				55A1C04D17BE243400F7529F /* ViewController.h */,
 				55A1C04E17BE243400F7529F /* ViewController.m */,
 				55A1C03917BE243400F7529F /* Supporting Files */,
+				55A1C05A17BE2EF600F7529F /* Ring.h */,
+				55A1C05B17BE2EF600F7529F /* Ring.m */,
+				55FF925317C280170020AEE0 /* MainStoryboard.storyboard */,
+				554591D417CB6ECE00AF2166 /* PuckView.h */,
+				554591D517CB6ECE00AF2166 /* PuckView.m */,
 			);
 			path = iOldPhone;
 			sourceTree = "<group>";
@@ -96,6 +118,9 @@
 		55A1C03917BE243400F7529F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55FFB97917C4BB2700896865 /* Ico@2x.png */,
+				55FFB97A17C4BB2700896865 /* Ico.png */,
+				55C6C42A17C3888D0040EC8D /* call.png */,
 				55A1C03A17BE243400F7529F /* iOldPhone-Info.plist */,
 				55A1C03B17BE243400F7529F /* InfoPlist.strings */,
 				55A1C03E17BE243400F7529F /* main.m */,
@@ -160,9 +185,12 @@
 			files = (
 				55A1C03D17BE243400F7529F /* InfoPlist.strings in Resources */,
 				55A1C04517BE243400F7529F /* Default.png in Resources */,
+				55FFB97B17C4BB2700896865 /* Ico@2x.png in Resources */,
+				55C6C42B17C3888D0040EC8D /* call.png in Resources */,
 				55A1C04717BE243400F7529F /* Default@2x.png in Resources */,
+				55FFB97C17C4BB2700896865 /* Ico.png in Resources */,
 				55A1C04917BE243400F7529F /* Default-568h@2x.png in Resources */,
-				55A1C04C17BE243400F7529F /* MainStoryboard.storyboard in Resources */,
+				55FF925417C280170020AEE0 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +203,9 @@
 			files = (
 				55A1C03F17BE243400F7529F /* main.m in Sources */,
 				55A1C04317BE243400F7529F /* AppDelegate.m in Sources */,
+				554591D617CB6ECE00AF2166 /* PuckView.m in Sources */,
 				55A1C04F17BE243400F7529F /* ViewController.m in Sources */,
+				55A1C05C17BE2EF600F7529F /* Ring.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +218,6 @@
 				55A1C03C17BE243400F7529F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		55A1C04A17BE243400F7529F /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55A1C04B17BE243400F7529F /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +320,7 @@
 				55A1C05417BE243400F7529F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
